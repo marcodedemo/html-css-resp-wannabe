@@ -128,10 +128,19 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-
  /* responsive desktop and tablet */
 .container{
     width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.row{
+    max-width: 1200px;
 }
 
 /* responsive mobile */
