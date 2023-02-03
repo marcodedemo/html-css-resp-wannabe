@@ -127,3 +127,25 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+ /* responsive desktop and tablet */
+.container{
+    width: 100%;
+}
+
+/* responsive mobile */
+@media screen and (max-width: 480px){
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .lessons .col, .steps .col, .why-us .col {
+        width: auto;
+    }
+
+
+}
